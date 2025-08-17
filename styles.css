@@ -1,0 +1,99 @@
+*{
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background-color: rgb(10,5,50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main{
+  color: white;
+  text-align: center;
+  width: 90%;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 2.2rem
+}
+
+.book{
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.8rem 0.8rem rgb(200, 200, 200);
+  font-size: 1.3rem;
+}
+
+.label{
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.search-input, .search-button{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.search-input:focus{
+  outline: solid 3px rgb(120, 180, 236)
+}
+
+.search-button{
+  color: white;
+  background-color: rgb(150, 10, 200);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+table{
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  border-spacing: 0.4rem;
+}
+tr{
+  background-color: rgb(150, 10, 200);
+  height: 2.5rem;
+  text-align: center;
+}
+
+th{
+  font-weight: 800;
+}
+
+.name-id, .w-h, .s-name, .s-description, .types{
+  text-align: left;
+  margin-left: 1rem;
+}
+.name-id,.s-name{
+  margin-bottom: 0;
+}
+.name-id, .s-name{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.w-h, .s-description, .types{
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+#weight{
+  margin-right: 0.9rem;
+}
+
+.type{
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
