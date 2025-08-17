@@ -43,6 +43,10 @@ main{
   text-align: center;
 }
 
+.search-input{
+    margin-bottom: 1rem;
+}
+
 .search-input:focus{
   outline: solid 3px rgb(120, 180, 236)
 }
